@@ -12,8 +12,7 @@ try:
 except FileNotFoundError:
     data = {"hwid_list": []}
 
-# 在这里手动添加新的 HWID（每次添加用户时修改）
-# data["hwid_list"].append("rvnp-xxxxxxxxxxxxxxxx")
+data["hwid_list"].append("rvn-a3196c701b3bfd93")
 
 if "signature" in data:
     del data["signature"]
